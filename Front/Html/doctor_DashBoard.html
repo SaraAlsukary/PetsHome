@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Doctor DashBoard</title>
+    <link rel="stylesheet" href="/Front/bootstrap.min.css" />
+    <link rel="stylesheet" href="/Front/css/sass/pages/homepage_English.css" />
+    <link rel="stylesheet" href="/all.min.css">
+
+  </head>
+
+  <body>
+
+    <div class=" side-container">
+      <div class="side-bar">
+        <input type="checkbox" id="click">
+        <label for="click">
+          <i class='menu-btn fa fa-bars'></i>
+          <i class='close-btn fa fa-close text'></i>
+        </label>
+
+        <div class="sidenav">
+          <div class="logo">
+            <h2 class="title-dash">Doctor DashBoard</h2>
+          </div>
+          <div class="menu_text">
+            <p>Menu</p>
+          </div>
+
+          <div class="icon_items">
+            <ul>
+              <li class="list-menu active">
+                <i class='fa fa-home'></i>
+                <a href="#">Home</a>
+              </li>
+              <li class="list-menu">
+                <i class='fa fa-user-circle'></i>
+                <a href="/Front/Html/profile.html">User</a>
+              </li>
+              <li class="list-menu">
+                <i class='fa fa-sign-in'></i>
+                <a class="logout" href="#">Logout</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="doctor-dashboard">
+      <div class="language " style="font-family: Arial, Helvetica, sans-serif;">
+        <a class="language-box" href='doctor_Dashboard_Arabic.html'>Ar</a>
+      </div>
+      <div class="container">
+        <div class="lists ">
+          <div class="btn-group-vertical list-users  " role="group" aria-label="Vertical radio toggle button group">
+            <h2>Users List</h2>
+          </div>
+          <div class="list-medicines ">
+            <h2>Medicines List</h2>
+          </div>
+        </div>
+        <div class="btns">
+          <input type="submit" value="Send" id="sub" class="btn btn-danger">
+          <input type="reset" value="Cancel" id="can" class="btn btn-classic">
+        </div>
+      </div>
+    </div>
+    <script src="/Front/Js/bootstrap.bundle.min.js"></script>
+    <script src="/Front/Js/doctor_Dashboard.js"></script>
+  </body>
+
+</html>
