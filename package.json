@@ -1,4 +1,10 @@
 {
+  "homepage": "https://saraalsukary.github.io/PetsHome/",
+  "scripts": {
+    "build": "npm run deploy",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
+  },
   "dependencies": {
     "bootstrap-icons": "^1.11.3"
   },
