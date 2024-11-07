@@ -1,8 +1,8 @@
 {
   "homepage": "https://saraalsukary.github.io/PetsHome/",
   "scripts": {
-    "build": "gh-pages -d build",
-    "deploy": "gh-pages -d build",
+    "build": "gh-pages -d ",
+    "deploy": "gh-pages -d ",
     "predeploy": "npm run build"
   },
   "dependencies": {
