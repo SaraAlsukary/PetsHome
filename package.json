@@ -1,7 +1,7 @@
 {
   "homepage": "https://saraalsukary.github.io/PetsHome/",
   "scripts": {
-    "build": "babel -d dist",
+    "build": "gh-pages -d dist",
     "deploy": "gh-pages -d build",
     "predeploy": "npm run build"
   },
